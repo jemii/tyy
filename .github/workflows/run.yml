@@ -53,5 +53,4 @@ jobs:
         ${user_list[$i]}
         ${pwd_list[$i]}
         EOF
-        http://pushplus.hxtrip.com/send?token=e8b33e0f93714de6b3b3b33697eb4e16&title=天翼云&content=签到成功&template=html
         done
