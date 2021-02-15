@@ -53,11 +53,11 @@ jobs:
         ${user_list[$i]}
         ${pwd_list[$i]}
         EOF
-        # encoding:utf-8
+        done
+           # encoding:utf-8
         import requests
         token = 'e8b33e0f93714de6b3b3b33697eb4e16' #在pushplus网站中可以找到
         title= '天翼云' #改成你要的标题内容
         content ='签到成功' #改成你要的正文内容
         url = 'http://pushplus.hxtrip.com/send?token='+token+'&title='+title+'&content='+content
         requests.get(url)
-        done
